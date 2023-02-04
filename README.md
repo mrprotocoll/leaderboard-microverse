@@ -107,7 +107,7 @@ To run the project:
 <!-- Features -->
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[ Styling ]**
+- [ ] **[ More styling with animation ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

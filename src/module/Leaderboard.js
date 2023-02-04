@@ -1,7 +1,7 @@
 export default class Leaderboard {
   constructor() {
     this.baseURI = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-    this.apiKey = 'OaaWEsM1fU91BBOf01Zg';
+    this.apiKey = 'Aj82qmYoVQ4KSgT1DrsT';
     this.endPoint = `${this.baseURI}games/ ${this.apiKey} /scores/`;
   }
 
