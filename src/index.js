@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
     let content = '';
     leaderboard.getScore().then((data) => {
       data.result.forEach((data) => {
-        content += `<li>${data.user}:  ${data.score}</li>`;
+        content += `<li><strong>${data.user}:</strong>  ${data.score}</li>`;
       });
       scoresContainer.innerHTML = content;
     });
@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
       if (response.result === 'Leaderboard score created correctly.') {
         // append new score if successful
         const scoreElement = document.createElement('li');
-        scoreElement.textContent = `${user}: ${score}`;
+        scoreElement.innerHTML = `<strong>${user}: </strong> ${score}`;
         scoresContainer.appendChild(scoreElement);
       }
     });

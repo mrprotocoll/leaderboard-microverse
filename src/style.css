@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
 body {
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
   margin: 0 auto;
   height: 100vh;
@@ -25,14 +28,35 @@ main {
 .row {
   border-bottom: 1px solid #ebebeb;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   column-gap: 50px;
+}
+
+h1{
+    padding: 20px;
+    background-color: #ffffff;
+    color: #525252;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #525252;
+}
+
+.board {
+    
 }
 
 .board-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 ul {
@@ -40,17 +64,18 @@ ul {
   width: 100%;
   list-style-type: none;
   margin: 0;
-  border: 2px solid #000;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 li {
   font-size: 16px;
   font-weight: 300;
   display: flex;
-  padding: 10px;
+  padding: 10px 20px;
   justify-content: space-between;
   align-items: center;
   align-content: center;
+  color: #525252;
 }
 
 li:nth-child(even) {
@@ -64,10 +89,19 @@ li:nth-child(even) {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #525252;
 }
 
 button {
-  padding: 8px 20px;
+  padding: 10px 30px;
+  background-color: #525252;
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .submit {
