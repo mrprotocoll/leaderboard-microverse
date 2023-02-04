@@ -46,6 +46,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Leaderboard**
+- **API calls using Async/Await**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +107,6 @@ To run the project:
 <!-- Features -->
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[API calls using Async/Await]**
 - [ ] **[ Styling ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
