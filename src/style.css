@@ -5,7 +5,6 @@ body {
   background-color: #fff;
   margin: 0 auto;
   height: 100vh;
-  font-family: 'Open Sans', 'Lucida Grande', tahoma, verdana, arial, sans-serif;
 }
 
 * {
@@ -33,21 +32,17 @@ main {
   column-gap: 50px;
 }
 
-h1{
-    padding: 20px;
-    background-color: #ffffff;
-    color: #525252;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-    margin-bottom: 40px;
-    text-align: center;
+h1 {
+  padding: 20px;
+  background-color: #fff;
+  color: #525252;
+  box-shadow: rgba(0, 0, 0, 0.04) 0 3px 5px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 h2 {
-    color: #525252;
-}
-
-.board {
-    
+  color: #525252;
 }
 
 .board-title {
@@ -56,8 +51,8 @@ h2 {
   align-items: center;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: #ffffff;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  background-color: #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
 }
 
 ul {
@@ -65,7 +60,7 @@ ul {
   width: 100%;
   list-style-type: none;
   margin: 0;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
 }
 
 li {
@@ -100,7 +95,7 @@ button {
   border: 0;
   border-radius: 10px;
   font-size: 16px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
   cursor: pointer;
 }
