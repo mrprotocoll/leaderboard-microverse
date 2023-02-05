@@ -24,18 +24,20 @@ window.addEventListener('load', () => {
   // Add new score
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    const user = document.getElementById('user').value;
-    const score = document.getElementById('score').value;
-    if (!user || !score) {
+    const user = document.getElementById('user');
+    const score = document.getElementById('score');
+    if (!user.value || !score.value) {
       return;
     }
 
-    leaderboard.saveScore(user, score).then((response) => {
+    leaderboard.saveScore(user.value, score.value).then((response) => {
       if (response.result === 'Leaderboard score created correctly.') {
         // append new score if successful
         const scoreElement = document.createElement('li');
-        scoreElement.innerHTML = `<strong>${user}: </strong> ${score}`;
+        scoreElement.innerHTML = `<strong>${user.value}: </strong> ${score.value}`;
         scoresContainer.appendChild(scoreElement);
+        user.value = '';
+        score.value = '';
       }
     });
   });
